@@ -1,3 +1,5 @@
+
+function test(){
 window.setInterval(function(){
   /// call your function here
   (function() {
@@ -17,7 +19,7 @@ window.setInterval(function(){
         var script = doc.createElement('script'), config;
 
         /* see http://www.mathjax.org/resources/faqs/#problem-https */
-        script.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML.js';
+        script.src = 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML.js';
         script.type = 'text/javascript';
 
         /* see http://www.mathjax.org/docs/1.1/options/tex2jax.html */
@@ -56,3 +58,4 @@ window.setInterval(function(){
     }
 })();
 }, 1000);
+}
